@@ -1,0 +1,20 @@
+.topbar_text {
+    font-size: 13px;
+    color: #ffffff;
+    letter-spacing: 0.3px;
+}
+
+.topbar_socials {
+    display: flex;
+    gap: 16px;
+}
+
+.topbar_socilas a {
+    font-size: 13px;
+    color: #ffffff;
+    opacity: 0.9;
+    transition: opacity 0.2 ease;
+}
+.topbar_socails a:hover {
+    opacity: 1;
+}

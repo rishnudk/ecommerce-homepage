@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+    .topbar-container {
+        flex-direction: column;
+        gap: 6px;
+        text-align: center;
+    }
+
+    .topbar_socials {
+        justify-content: center;
+    }
+}
