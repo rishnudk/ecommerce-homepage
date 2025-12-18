@@ -18,3 +18,51 @@
 .topbar_socails a:hover {
     opacity: 1;
 }
+
+.header_logo a {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #1f4d46;
+}   
+
+.nav_list {
+    display: flex;
+    gap: 24px;
+}
+
+.nav_list a {
+    font-size: 14px;
+    color: #333;
+    position: relative;
+}
+
+.nav_list a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 1px;
+    background-color: #1f4d46;
+    transition: width 0.3s ease;
+}
+
+.nav_list a:hover::after {
+    width: 100%;
+}
+
+.search-input {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+}

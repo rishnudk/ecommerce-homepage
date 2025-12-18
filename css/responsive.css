@@ -8,4 +8,18 @@
     .topbar_socials {
         justify-content: center;
     }
+
+    .nav {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+        margin-left: 12px;
+    }
+
+    .search-input {
+        display: none;
+    }
+
 }
